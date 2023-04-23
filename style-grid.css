@@ -1,0 +1,188 @@
+body{
+  background-color: #ecf1f8;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  margin: 15px;
+}
+
+p{
+  margin: 0;
+}
+.footer{
+  background-color: #bdc1c7;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: inline;
+  padding: 5px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+img{
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid white;
+  border-radius: 100px;
+}
+
+.tweet-1 {
+  background-color: #733fc8;
+  padding: 25px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.tweet-2 {
+  background-color: #49556b;
+  padding: 25px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.tweet-3 {
+  background-color: #ffffff;
+  padding: 25px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.tweet-4 {
+  background-color: #18202d;
+  padding: 25px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.tweet-5 {
+  background-color: #ffffff;
+  padding: 25px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+#author {
+  display: flex;
+  flex-direction: column; 
+  margin: 10px;
+  margin-top: 7px;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+#author-1 {
+  display: flex;
+  flex-direction: column; 
+  margin: 10px;
+  margin-top: 7px;
+  color: black;
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+#info {
+  opacity: 50%;
+}
+
+.profile {
+  display: flex;
+}
+
+#heading {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 1.3;
+  font-size: 1.2rem;
+}
+
+#heading-1 {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  opacity: 90%;
+} 
+#para{
+  color: white;
+  opacity: 70%;
+  line-height: 1.3;
+}
+
+#para-1{
+  color: black;
+  opacity: 70%;
+  line-height: 1.3;
+}
+
+@media (min-width: 756px){
+   main{
+     display: grid;
+     margin: 7vh;
+    }
+  .main-left{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-up , .left-down {
+    display: flex;
+    margin-bottom: 3px;
+  }
+  
+  .tweet-2 , .tweet-4 {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 1050px){
+  body{
+    font-size: 10px;
+  }
+  
+  main {
+    display: flex;
+	margin: 10vh;
+	justify-content: center;
+  }
+  
+  .main-right {
+    width: 25%;
+	margin-left: 20px;
+	
+  }
+  
+  .main-left {
+	width: 65%;
+  }
+  
+  .left-up , .left-down {
+    display: flex;
+  }
+  
+    .tweet-1 , .tweet-3 {
+    margin-right: 10px;
+  }
+  
+  .tweet-5 {
+	  width: 70%;
+	  height: 86.5%
+  }
+  
+  #heading, #heading-1{
+    font-size: 17px;
+  }
+ 
+  
+  #author, #author-1{
+    font-size: 11px
+  }
+}
